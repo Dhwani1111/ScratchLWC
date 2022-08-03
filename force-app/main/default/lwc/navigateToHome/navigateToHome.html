@@ -1,0 +1,53 @@
+<template>
+    <lightning-card title="Navigate To Home/Chatter">
+            <lightning-button  variant="brand" class="slds-m-left_x-small" label="Navigate To Home" onclick={navigateToHome}></lightning-button>
+           <lightning-button variant="brand" class="slds-m-left_x-small" label="Navigate To Chatter" onclick={navigateToChatter}></lightning-button>
+      
+    </lightning-card>
+
+    <lightning-card title="Navigate To New Record">
+        <lightning-button variant="brand" label="Navigate To New Record" onclick={navigateToNewRecord}></lightning-button>
+    </lightning-card>
+
+    <lightning-card title="Navigate to New Record with default values">
+        <lightning-button variant="brand" label="New Record with default values"
+        onclick={navigateToNewRecordWithDefault}></lightning-button>
+    </lightning-card>
+
+    <lightning-card title="Navigate to Listview">
+        <lightning-button variant="brand" label="Listview"
+        onclick={navigateToListView}></lightning-button>
+    </lightning-card>
+
+    <lightning-card title="Navigate to File">
+        <lightning-button variant="brand" label="Navigate to File"
+        onclick={navigateToFile}></lightning-button>
+    </lightning-card>
+
+    <lightning-card title="Navigate to Record Page in View/Edit Mode"> 
+        <lightning-button variant="brand" label="View mode"
+         onclick={recordViewMode}></lightning-button>
+
+         <lightning-button variant="brand" label="Edit mode"
+         onclick={recordEditMode}></lightning-button>
+    </lightning-card>
+
+    <lightning-card title="Navigate to Tab">
+        <lightning-button variant="brand" label="Navigate to Tab"
+        onclick={navigateToTab}></lightning-button>
+    </lightning-card>
+
+    <lightning-card title="Navigate to related contacts of account">
+        <lightning-button variant="brand" label="Navigate"
+        onclick={navigateToRelatedList}>
+        </lightning-button>
+    </lightning-card>
+
+    <lightning-card title="Navigate to webpage">
+        <lightning-button variant="brand" label="webpage"
+        onclick={navigateToWebPge}>
+        </lightning-button>
+    </lightning-card>
+
+</template>
+

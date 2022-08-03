@@ -1,0 +1,17 @@
+/* element, classes, pseudo */
+p{
+    color:var(--lwc-brandAccessibleActive);
+    font-size: 30px;
+    /* background: var(--lwc-colorBackgroundCustomer); */
+    border: 1px solid red;;
+}
+
+.user{
+    color:pink;
+    font-size: 20px;
+}
+
+.user:hover{
+    font-size: 50px;
+    color:blueviolet;
+}
